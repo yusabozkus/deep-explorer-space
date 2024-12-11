@@ -1,37 +1,48 @@
-# Proje Adı
+# Deep Explorer Space (DES)
 
-Bu proje, basit bir uygulama demo'su olarak oluşturulmuştur. React ve Vite kullanılarak geliştirilmiştir. 
+This project is a simple demo application built with React, Vite, TypeScript, and various other technologies. It serves as an exploration tool for space-related data.
 
-## Başlangıç
+## Technologies Used
 
-### Adımlar:
+- **Vite**
+- **TypeScript**
+- **Tailwind CSS**
+- **Appwrite**
+- **NextUI**
+- **React Router DOM**
 
-1. Repo'yu indirin:
+## Getting Started
+
+### Steps:
+
+1. Clone the repository:
     ```bash
-    git clone https://github.com/username/example.git
+    git clone https://github.com/yusabozkus/deep-explorer-space.git
     ```
 
-2. Proje klasörüne gidin:
+2. Navigate to the project folder:
     ```bash
-    cd example
+    cd deep-explorer-space
     ```
 
-3. Gerekli bağımlılıkları yüklemek için:
+3. Install the necessary dependencies:
     ```bash
     npm install
     ```
 
-4. Geliştirme sunucusunu başlatmak için:
+4. Start the development server:
     ```bash
     npm run dev
     ```
 
-Proje başarılı bir şekilde başlatıldıktan sonra, tarayıcınızda `http://localhost:3000` adresine giderek uygulamanızı görebilirsiniz.
+Once the project is successfully started, open your browser and visit `http://localhost:3000` to view the application.
 
 ## Demo
 
-Aşağıda projenin canlı bir demosu bulunmaktadır:
+Below is a live demo of the project:
+[**View Demo**](https://des-v1.netlify.app/)
 
-![Demo Resmi](https://via.placeholder.com/500x300.png)
+![Demo Image](https://i.hizliresim.com/guih6n3.png)
+![Demo Image](https://i.hizliresim.com/ffdezb8.png)
 
-[**Demo'yu Görüntüle**](https://example.com)
+
