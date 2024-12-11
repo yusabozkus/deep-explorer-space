@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Base theme */
+
+  * {
+    @apply m-0 p-0 scroll-smooth;
+  }
+
+  body {
+    @apply min-h-screen font-poppins;
+  }
+
+  .custom-scroll::-webkit-scrollbar {
+    @apply bg-body w-1 transition-all ease-linear;
+  }
+
+  .custom-scroll::-webkit-scrollbar-thumb {
+    @apply bg-card hover:bg-primary transition-all ease-linear; /* 2px gri kenarlık */
+  }
+
+  :root {
+    --radius: 0.5rem;
+  }
+
+  input,
+  textarea {
+    font-family: "Poppins", sans-serif;
+    outline: none;
+  }
+
+  .preview-container h1 {
+    @apply text-[1.4rem] font-bold mb-3;
+  }
+
+  .preview-container h2 {
+    @apply text-[1.4rem] font-bold mb-5;
+  }
+
+  .preview-container h3 {
+    @apply text-[1.4rem] font-bold mb-5;
+  }
+
+  .preview-container img {
+    @apply rounded-lg mb-5;
+  }
+
+  .preview-container p {
+    @apply text-[1rem] text-gray font-normal mb-5 leading-8;
+  }
+
+  .preview-container strong {
+    @apply font-semibold;
+  }
+
+  .preview-container ul {
+    list-style-type: decimal !important;
+    list-style: disc !important;
+    padding-left: 20px;
+  }
+
+  .editor-p p {
+    @apply text-[1rem] text-gray font-normal mb-5 leading-8;
+  }
+
+  .word-animation {
+    opacity: 0;
+    animation: fadeIn 0.5s forwards;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+}
+
+.bn-container[data-theming-css-variables-demo][data-color-scheme] {
+  --bn-colors-editor-text: #fff;
+  --bn-colors-menu-text: #ffffff;
+  --bn-colors-tooltip-text: #ffffff;
+  --bn-colors-hovered-text: #ffffff;
+  --bn-colors-selected-text: #ffffff;
+  --bn-colors-side-menu: #bababa;
+  --bn-color-highlight-colors: #ffffff;
+  --bn-border-radius: 4px;
+  --bn-font-family: Helvetica Neue, sans-serif;
+}
